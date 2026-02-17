@@ -4,8 +4,9 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\html",
-    "\\assets\\js"
+    "\\assets\\js",
+    "\\assets\\js\\plugin"
   ],
-  "SelectedNode": "\\assets\\css\\index.css",
+  "SelectedNode": "\\assets\\js\\plugin\\wow.min.js",
   "PreviewInSolutionExplorer": false
 }
