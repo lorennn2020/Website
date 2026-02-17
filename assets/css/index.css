@@ -42,7 +42,7 @@ body {
 }
 
 /* header */
-.sec1_header{
+.sec1_header {
     position: fixed;
     width: 100%;
     display: -webkit-box;
@@ -50,12 +50,12 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -webkit-box-pack: end;
-    -moz-box-pack: end;
-    -ms-flex-pack: end;
-    -webkit-box-pack: flex-end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-box-pack: flex-start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
     /* -webkit-box-pack: justify;
     -moz-box-pack: justify;
     -ms-flex-pack: justify;
@@ -67,7 +67,7 @@ body {
     align-items: center;
     left: 0;
     bottom: 0;
-    padding: 15px 80px;
+    padding: 0px 80px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -78,9 +78,9 @@ body {
     background-color: #333;
 }
 .sec1_header .header_maintitle{
-    position: absolute;
-    top: -3px;
-    left: 75px;
+    position: relative;
+/*    top: -3px;
+    left: 75px;*/
 }
 body.lightbox_open .sec1_header .header_maintitle{
     opacity: 0;
