@@ -27,7 +27,8 @@ body {
 
 .sec_banner {
     /*    height: 95vh;*/
-        height: 70vh;
+    height: 70vh;
+    padding-bottom: 4%;
 }
 .sec_banner .brief{
     position: absolute;
@@ -1523,7 +1524,7 @@ div.swiper-button-disabled{
 }
 /* @media only screen and (min-width: 991px) and (max-height: 775px){ */
 @media only screen and (min-width: 991px){
-    .sec1_svg{
+    .sec1_svg {
         -webkit-transform: scale(0.75);
         -moz-transform: scale(0.75);
         -ms-transform: scale(0.75);
@@ -1534,6 +1535,8 @@ div.swiper-button-disabled{
         -ms-transform-origin: center;
         -o-transform-origin: center;
         transform-origin: center;
+        margin-top: -6%;
+        margin-bottom: 5%;
     }
     .sec1_svg .svg_text{
         width: 100%;
