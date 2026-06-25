@@ -10,7 +10,7 @@
         <!-- <a href="tel:+886-919961955" class="contact_phone" title="call me :D"></a> -->
         <!-- <a href="mailto:roy830817@gamil.com" class="contact_email" title="copy mail address"></a> -->
         <button id="myEmail" class="fz-14 font-acacac ls-2 font-Moon-R" onclick="copyEmail()" title="copy email address">roy830817@gmail.com</button>
-        <span class="copied fz-12 font-acacac ls-2 font-Moon-R">Copied!</span>
+        <span class="copied fz-12 font-acacac ls-1 font-Moon-R">Copied!</span>
         <!-- <a href="kit.html" class="contact_kit" title="FD kit"></a> -->
     </p>
 </header>
@@ -22,5 +22,7 @@
         navigator.clipboard.writeText(text)
             .then(() => alert('Copied!'))
             .catch(err => console.error('Copied failed', err));
+            
+        btn.classList.add('fade');
     }
 </script>
