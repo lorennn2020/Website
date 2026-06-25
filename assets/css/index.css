@@ -134,6 +134,9 @@ body.lightbox_open .sec1_header .header_maintitle{
     transform: rotateZ(180deg);
     margin-left: 32px;
 }
+.sec1_header .header_contact span{
+    padding-left: 10px;
+}
 .sec1_header .header_contact span,
 .sec1_header .header_contact a{
     vertical-align: middle;

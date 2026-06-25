@@ -208,12 +208,4 @@ jQuery(document).ready(function() {
         
     }, 4000);
 
-    // 點擊拷貝email
-    function copyEmail() {
-        const btn = document.getElementById('myEmail');
-        const text = btn.innerText;
-        navigator.clipboard.writeText(text)
-            .then(() => alert('Copied!'))
-            .catch(err => console.error('Copied failed', err));
-    }
 });
