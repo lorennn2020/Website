@@ -69,7 +69,7 @@ body {
     align-items: center;
     left: 0;
     bottom: 0;
-    padding: 10px 80px;
+    padding: 10px 5%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -182,6 +182,9 @@ body.lightbox_open .sec1_header .header_maintitle{
 }
 #myEmail {
     cursor: pointer;
+    background: transparent;
+    border: none;
+    
 }
 /* header end */
 /* ----- sec1 ----- */
