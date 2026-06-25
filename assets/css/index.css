@@ -1535,7 +1535,7 @@ div.swiper-button-disabled{
         -ms-transform-origin: center;
         -o-transform-origin: center;
         transform-origin: center;
-        margin-top: -6%;
+        margin-top: 0%;
         margin-bottom: 5%;
     }
     .sec1_svg .svg_text{

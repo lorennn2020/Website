@@ -54,7 +54,7 @@ jQuery(document).ready(function() {
     // sec1 swiper
     if ($(window).width() < 992){
         $("body").hide();
-        alert("手機版更新中，請使用電腦版開啟獲得的最佳體驗！");
+        alert("The mobile version is currently being updated. Please use the PC version for the best experience!");
 
         // var mainSwiper = new Swiper('.swiper-container-sec1', {
         //     direction : 'horizontal',
@@ -124,7 +124,7 @@ jQuery(document).ready(function() {
         
         //  下載CV
         $('.cv_img').click(function() {
-            $('.cv_text').text('下載成功！')
+            $('.cv_text').text('Download successful!')
         });
     }
     // 當視窗有任何調整重整swiper
