@@ -11,7 +11,8 @@ jQuery(document).ready(function() {
 
     // 點擊拷貝email
     function copyEmail() {
-        const text = document.getElementById('myEmail').innerText;
+        const btn = document.getElementById('myEmail');
+        const text = btn.innerText;
         navigator.clipboard.writeText(text)
             .then(() => alert('Copied!'))
             .catch(err => console.error('Copied failed', err));
