@@ -1537,7 +1537,7 @@ div.swiper-button-disabled{
         -o-transform-origin: center;
         transform-origin: center;
             position: absolute;
-        transform: translateY(-50%);
+        transform: translateY(-75%);
         top: 50%;
         padding-top: 0px;
         margin-bottom: 5%;
