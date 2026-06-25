@@ -181,7 +181,6 @@ body.lightbox_open .sec1_header .header_maintitle{
 }
 .sec1_header .contact_kit:hover{
     opacity: 1;
-
 }
 #myEmail {
     cursor: pointer;
@@ -195,12 +194,12 @@ body.lightbox_open .sec1_header .header_maintitle{
     background-color: #242424;
     padding: 3px 8px 5px 8px;
     border-radius: 13px;
-    opacity: 1;
+    opacity: 0;
 }
 .copied.fade{
-    opacity: 0;
+    opacity: 1;
     top: -20px;
-    transition: all 0.3s linear forward;
+    transition: all 0.5s linear forward;
 }
 .copied::before{
     content: "";
