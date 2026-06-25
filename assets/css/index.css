@@ -186,8 +186,12 @@ body.lightbox_open .sec1_header .header_maintitle{
 #myEmail {
     cursor: pointer;
     background: transparent;
-    border: none;
-    
+    border: none;   
+}
+.copied{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 /* header end */
 /* ----- sec1 ----- */
