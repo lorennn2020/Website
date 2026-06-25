@@ -9,6 +9,15 @@ jQuery(document).ready(function() {
         $("html,body").css('overflow','auto');
     }
 
+    // 點擊拷貝email
+    function copyEmail() {
+        const text = document.getElementById('myEmail').innerText;
+        navigator.clipboard.writeText(text)
+            .then(() => alert('Copied!'))
+            .catch(err => console.error('Copied failed', err));
+    }
+
+
     // header about me
     // $('.js_about_me,#js_sec2_close').click(function(){
     //     var windowH = $(window).height();

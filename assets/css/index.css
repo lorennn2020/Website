@@ -140,7 +140,7 @@ body.lightbox_open .sec1_header .header_maintitle{
 }
 .sec1_header .contact_text{
     position: relative;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 /* .sec1_header .contact_text::after{
     position: absolute;
