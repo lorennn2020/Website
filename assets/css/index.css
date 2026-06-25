@@ -190,8 +190,20 @@ body.lightbox_open .sec1_header .header_maintitle{
 }
 .copied{
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 43%;
+    top: -6px;
+    background-color: #313131;
+    padding: 4px 8px;
+    border-radius: 13px;
+}
+.copied::before{
+    left: 0;
+    top: 0;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 20px 10px 0px 10px;
+    border-color: #313131 transparent transparent transparent;
+    transform: rotate(0deg);
 }
 /* header end */
 /* ----- sec1 ----- */
