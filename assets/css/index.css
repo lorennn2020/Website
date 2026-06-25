@@ -1437,6 +1437,7 @@ div.swiper-button-disabled{
 }
 /* ----- secUXdemo ----- end */
 
+
 @media only screen and (min-width: 992px){
     .sec1_header .header_about,
     .sec1_swiper .swiper-slide,
@@ -1535,7 +1536,10 @@ div.swiper-button-disabled{
         -ms-transform-origin: center;
         -o-transform-origin: center;
         transform-origin: center;
-        margin-top: 0%;
+            position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+        padding-top: 0px;
         margin-bottom: 5%;
     }
     .sec1_svg .svg_text{
@@ -1548,7 +1552,7 @@ div.swiper-button-disabled{
 }
 @media only screen and (min-height: 700px){
     .sec1_svg .svg_text{
-        bottom: 300px;
+        bottom: 220px;
     }
 }
 /* @media only screen and (max-width: 1300px){
