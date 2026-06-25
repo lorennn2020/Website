@@ -197,6 +197,7 @@ body.lightbox_open .sec1_header .header_maintitle{
     border-radius: 13px;
 }
 .copied::before{
+    content: "";
     left: 0;
     top: 0;
     width: 0; height: 0;
