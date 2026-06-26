@@ -200,7 +200,7 @@ body.lightbox_open .sec1_header .header_maintitle{
 .copied.fade{
     opacity: 1;
     top: -14px;
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
 }
 .copied::before{
     content: "";
