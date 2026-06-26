@@ -190,16 +190,17 @@ body.lightbox_open .sec1_header .header_maintitle{
 .copied{
     position: absolute;
     left: 43%;
-    top: -15px;
+    top: -8px;
     background-color: #242424;
     padding: 3px 8px 5px 8px;
     border-radius: 13px;
     opacity: 0;
+    color: #fff;
 }
 .copied.fade{
     opacity: 1;
-    top: -20px;
-    transition: all 0.5s linear forward;
+    top: -14px;
+    transition: all 0.5s linear;
 }
 .copied::before{
     content: "";
